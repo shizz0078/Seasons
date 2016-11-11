@@ -1,0 +1,26 @@
+/*color Palette background */
+.blue1-bg{
+    background-color: #08b2d0;
+
+}
+
+/* color palete fonts */
+.blue1-font{
+    color: #08b2d0;
+
+}
+
+
+
+
+
+.navbar{
+    background-color: #f1f1f1;
+}
+
+.navbar-default .navbar-nav > li > a{
+
+    color: #08b2d0;
+}
+
+body{background:pink;}

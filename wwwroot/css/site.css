@@ -1,0 +1,181 @@
+/* Color Palette */
+/*
+
+blue            08b2d0
+light teal      1efbf2
+middle green    c1d920
+yellow/orange   f7d80c
+red/orange      ea7213
+
+card-orange:    fd9729
+car-yellow:     f8eb1b
+card-green:     a0fa1b
+card-blue:      1efbf2
+
+light gray:     f1f1f1;
+*/
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color:#f1f1f1;
+}
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set widths on the form inputs since otherwise they're 100% wide */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* Carousel */
+.carousel-caption p {
+    font-size: 20px;
+    line-height: 1.4;
+}
+
+/* Make .svg files in the carousel display properly in older browsers */
+.carousel-inner .item img[src$=".svg"]
+{
+    width: 100%;
+}
+
+/* Hide/rearrange for smaller screens */
+@media screen and (max-width: 767px) {
+  /* Hide captions */
+  .carousel-caption {
+    display: none
+  }
+}
+
+
+/*color Palette background */
+.blue1-bg{
+    background-color: #08b2d0;
+
+}
+
+/* color palete fonts */
+.blue1-font{
+    color: #08b2d0;
+
+}
+
+.blue2-font{
+    color: #1efbf2;
+
+}
+
+.mid-green1-font{
+    color:#c1d920;
+    background:none;
+}
+
+.orange1-font{
+    color: #fd9729;
+}
+
+.darkOrange-font{
+    color: #ea7213;
+}
+
+.white-font{
+    color: #FFF;
+}
+
+.black-font{
+  color: #000;
+  background: none;
+}
+
+.lightGray-font{
+    color:#f1f1f1;
+    background:none;
+}
+
+.thin-font{
+    font-weight: 700;
+    font-size:.75em;
+}
+
+
+
+
+.navbar{
+    background-color: #f1f1f1;
+    border: none;
+}
+
+.navbar .navbar-nav{
+    /*display: inline-block;
+    float: none;*/
+}
+
+.navbar-default .navbar-nav > li > a{
+
+    color: #08b2d0;
+    font-size: 1.5em;
+    
+}
+
+.navbar-default .navbar-brand{
+    color:#ea7213;
+    font-size: 1.5em;
+}
+
+
+.home-top-row{
+    width:500px;
+    height:374px;
+    padding:0;
+
+}
+
+.home-feat-row{
+    height:450px;
+}
+
+.row-color-white{
+    background: #FFF;
+}
+
+.row-color-green{
+    background: #c1d920;
+}
+
+.row-color-darkOrange{
+    background: #ea7213;
+}
+
+.row-color-darkBlue{
+    background: #08b2d0;
+}
+
+.height-base{
+    height:374px;
+}
+
+.height-base-half{
+    height:187px;
+}
+
+
+.center-block {  
+       position: absolute;
+       top: 0;
+       left: 0;
+       bottom: 0;
+       right: 0;
+       margin: auto;
+} 
+
+.glyph-size1{
+    font-size:10.5em;
+}
